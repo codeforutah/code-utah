@@ -1,1 +1,1 @@
-amandawalter.github.io/Code-Utah
+opensaltlake.github.io/Code-Utah
