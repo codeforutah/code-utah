@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="browser-ie7 lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="browser-ie8 lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="browser-ie9 lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="browser-modern"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <!-- <base href="/"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+
+        <link rel="stylesheet" href="assets/css/text.css">
+        <link rel="stylesheet" href="assets/css/base.css">
+
+        <!-- vendor -->
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="node_modules/lodash/index.js"></script>
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="node_modules/angular-route/angular-route.min.js"></script>
+        <script src="node_modules/angular-aria/angular-aria.min.js"></script>
+    </head>
+    <body ng-app="app" ng-strict-di>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="/#">Home</a></li>
+                    <li><a href="/#events">Events</a></li>
+                    <li><a href="/#projects">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- view -->
+        <pre ng-view>404</pre>
+    </body>
+</html>
