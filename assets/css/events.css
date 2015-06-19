@@ -1,0 +1,26 @@
+.calendar {
+    width: 100%;
+}
+
+.calendar td {
+    border: 1px solid rgb(200, 192, 192);
+    height: calc(100vw / 8);
+    position: relative;
+    width: calc(100vw / 8);
+}
+
+.calendar .calendar\/day {
+    background-color: rgb(255, 239, 175);
+    border-bottom: 1px solid rgb(200, 192, 192);
+    box-sizing: border-box;
+    color: rgb(108, 108, 73);
+    font-style: italic;
+    overflow: hidden;
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+    white-space: nowrap;
+    width: 100%;
+}

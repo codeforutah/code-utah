@@ -1,1 +1,9 @@
 <h2>Code Utah - events</h2>
+
+<table class="calendar">
+    <tr ng-repeat="week in [0, 1, 2, 3]">
+        <td ng-repeat="day in [1, 2, 3, 4, 5, 6, 7]">
+            <div class="calendar/day">{{ week * 7 + day }}</div>
+        </td>
+    </tr>
+</table>
